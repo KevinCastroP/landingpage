@@ -17,7 +17,7 @@ body{
   position: relative;
   background: url(../img/rappi.jpg);
   background-size: cover;
-  min-height 600px;
+  min-height: 600px;
 }
 
 .background-overlay {
@@ -151,4 +151,8 @@ body{
 .i-database{
     width: 70%;
     margin-left: 15%;
+}
+
+.icon-braulio{
+    margin-top: 15px;
 }
