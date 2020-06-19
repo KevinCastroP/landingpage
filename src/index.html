@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Righteous&display=swap" rel="stylesheet">
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+        <!-- <img src="img/logo.png" style="width: 20%;"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#inspired">Inspired By</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#demo">Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">App</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row d-flex h-100">
+
+            <div class="col-sm-6 mt-5">
+              <div >
+                <div class="content1">
+                <h1 class="titles title_rapscore">RapScore</h1>
+                <h3>“Changing the way you work”</h3>
+                <img src="img/holberton.png" class="img-fluid d-none d-sm-block"> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>   
+
+    <!-- ABOUT -->
+    <section class="m5 text-center bg-light" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="mt-5">
+            <p class="titles mt-3">ABOUT</p>
+            <p class="pa_text" id="text_about">
+              This project proposes a workforce based credit system, implementing technology and performance. The main goal is to facilitate fast loan access to workers based on their performance. We have two main participants. Investors and workers. Investors invest in the loan system based on the worker's score and workers will have access to the loan depending on their performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEE FEATURES -->
+    <section class="m5" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="mt-5">
+            <h1 id="title_features" class="titles mt-3">FEATURES</h1> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p id="text_account">The platform has two types of users, investors and workers, forming a pro-active community for economic development and the promotion of savings.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/account.png" class="i-account" alt="imagen account">
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/status.png" class="i-status" alt="imagen estatus">
+          </div>
+          <div class="col-md-6">
+            <h3 id="text_status">It allows the visualization of the investments, knowing details such as the investment number, the number of located and the status of it.</h3>
+          </div>
+        </div>
+      </section>    
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 id="text_details">the worker can choose some details of the loan for his financing, choose the number of months that the system frees him for the timely payment and know details about the interest applied.</h3>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/loan_details.png" class="i-details" alt="loan_details">
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/database.png" class="i-database" alt="imagen database">
+          </div>
+          <div class="col-md-6">
+            <h3 id="text_database">This is the model of the database, where customer information will be stored safely.</h3>
+          </div>
+        </div>
+      </section>  
+
+      <section class="container" id="last-features">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 id="text_code">cutting-edge technologies for excellent optimization and operation of the application giving the customer the best user experience</h3>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/code.png" class="i-database" alt="imagen code">
+          </div>
+        </div>
+      </section>
+
+        <!-- inspired by -->
+        <section class="text-center" id="inspired">
+          <div class="container">
+            <div class="row">
+              <div class="mt-5">
+                <p class="titles">Inspired By</p>
+                <p class="pa_text" id="pa-inspired">During these last 9 months we have developed the capacities that have allowed us with the continuous accompaniment of Holberton School to carry out the project that we are presenting to you today. We were inspired to be able to show a product that shows all the progress we had during this time, it is also ours first real project for a company and we did it trying to cover all the details in the code.
+                Thanks to all our mentors and colleagues who made these results possible.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    <!-- DEMO -->
+    <section class="text-center" id="demo">
+      <div class="container">
+        <div class="row">
+          <div class="mt-5">
+            <p class="titles" style="margin-left: 430%;">DEMO</p>
+            <p class="" id="">VIDEO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="text-center team" id="team">
+      <div class="container p-5">
+        <h1 class="text-center text-white titles mt-3">Our Develop Team</h1><br>
+        <div class="row">
+          <!-- USER TEAM -->
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/kevin_castro.jpg" class="img-fluid rounded-circle w-50">
+                <h3>Kevin Castro</h3>
+                <p>
+                  Database developer
+                </p>
+                <div class="d-flex flex-row justify-content-center" id="icon1">
+                  <div class="p-4">
+                    <a href="https://github.com/KevinCastroP" target="blank"><i class="fab fa-github"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.linkedin.com/in/kevin-castro-a46996193/" target="blank"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://twitter.com/ccali_k" target="blank"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/jhonatan_legarda.jpg" class="img-fluid rounded-circle w-50">
+                <h3>Jhonatan Legarda</h3>
+                <p>
+                  Front-end developer
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="https://github.com/steven-cruz" target="blank"><i class="fab fa-github"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.linkedin.com/in/jhonatan-legarda-3799a5193/" target="blank"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://twitter.com/JhonatanLegarda" target="blank"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/braulio.jpeg" class="img-fluid rounded-circle w-50">
+                <h3>Braulio Méndez</h3>
+                <p>
+                  RappiAliado
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="https://github.com/brauliomendezj" target="blank"><i class="fab fa-github"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.linkedin.com/in/brauliomendezjimenez/" target="blank"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://twitter.com/BraaulioMendez" target="blank"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/luis_herrera.jpg" class="img-fluid rounded-circle w-50">
+                <h3>Luis Herrera</h3>
+                <p>
+                  Back-end developer
+                </p>
+                <div class="d-flex flex-row justify-content-center" id="icone2">
+                  <div class="p-4">
+                    <a href="https://github.com/lh1008" target="blank"><i class="fab fa-github"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.linkedin.com/in/lh1008/" target="blank"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://twitter.com/lh1008" target="blank"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <a href="https://github.com/KevinCastroP/RapScore_MVP" target="blank"><img src="./img/github1.png" alt="logo github" class="logo-github"></a>
+
+        </div>
+      </div>
+    </section>
+      
+    <footer>
+      <div class="container p-3">
+        <div class="row text-center text-white">
+          <div class="col ml-auto">
+            <p>Copyright &copy; 2020 RapScore | Powered by <a href="#" class="link_holberton">Holberton School</a> Students</p>
+          </div>
+        </div>
+      </div>       
+    </footer>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
